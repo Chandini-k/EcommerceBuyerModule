@@ -1,0 +1,21 @@
+<div class="bg-image">
+    <nav><div class="topnav">
+      <a routerLink="/buyer">BIG BASKET</a>
+      <a [routerLink]="'search'">SEARCH</a>
+      <a [routerLink]="'viewcart'">CART</a>
+      <a [routerLink]="'purchasehistory'">VIEW ORDERS</a>
+      <a [routerLink]="'viewprofile'">PROFILE</a>
+      <div class="search-container">
+        <form>
+          <button type="submit" (click)="Logout()"><i class="fa fa-sign-out"></i>Logout</button>
+        </form>
+      </div>
+      <div class="search-containers">
+          <form>
+            <button type="submit" [routerLink]="'viewcart'"><i class="fa fa-cart-arrow-down"></i>{{count}}</button>
+          </form>
+        </div>
+    </div></nav>
+     
+        <router-outlet></router-outlet>
+      </div>

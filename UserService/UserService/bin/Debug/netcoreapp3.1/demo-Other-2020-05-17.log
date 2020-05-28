@@ -1,0 +1,2 @@
+2020-05-17 10:14:34.4755||DEBUG|UserService.Program|init main function |url: |action: 
+2020-05-17 10:14:41.6465|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/|action: 

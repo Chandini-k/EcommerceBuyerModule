@@ -1,0 +1,9 @@
+2020-05-08 05:59:30.2361||DEBUG|UserService.Program|init main function 
+2020-05-08 05:59:42.7383|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2020-05-08 05:59:52.2441||INFO|UserService.Controllers.UserController|Register 
+2020-05-08 05:59:52.2441||INFO|UserService.Controllers.UserController|Succesfully Registered 
+2020-05-08 06:57:44.1965||DEBUG|UserService.Program|init main function 
+2020-05-08 06:57:51.0077|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2020-05-08 06:58:17.9655||INFO|UserService.Controllers.UserController|User Login 
+2020-05-08 06:58:21.5383||INFO|UserService.Controllers.UserController|Welcomerohitha 
+2020-05-08 06:58:31.1266||INFO|UserService.Controllers.UserController|User Login 

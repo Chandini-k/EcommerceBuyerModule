@@ -1,0 +1,46 @@
+{
+  "ReRoutes": [
+    //User
+    {
+      "DownstreamPathTemplate": "/api/User/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 58732
+        }
+      ],
+      "UpstreamPathTemplate": "/User/{catchAll}"
+
+    },
+    //Buyer
+    {
+      "DownstreamPathTemplate": "/api/Buyer/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 58708
+        }
+      ],
+      "UpstreamPathTemplate": "/Buyer/{catchAll}"
+
+    },
+    //Item
+    {
+      "DownstreamPathTemplate": "/api/Items/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 58765
+        }
+      ],
+      "UpstreamPathTemplate": "/Items/{catchAll}"
+
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:49190"
+  }
+}

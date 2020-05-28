@@ -1,0 +1,33 @@
+create table Buyer(buyerid int primary key,
+username varchar(20) not null,
+password varchar(20) not null,
+email varchar(20) not null,
+mobileno varchar(20) not null,
+datetime date)
+select * from Buyer
+create table Items(itemid int primary key,
+price int not null,
+itemname varchar(20) not null,
+description varchar(20),
+stockno int,
+remarks varchar(20))
+alter table Items add imagename varchar(50)
+create table Purchasehistory(purchaseid int primary key,
+buyerid int foreign key references Buyer(buyerid),
+transactiontype varchar(20) not null,
+itemid int foreign key references Items(itemid),
+itemname varchar(20) not null,
+noofitems int,
+datetime date not null,
+remarks varchar(20))
+ALTER TABLE Purchasehistory ADD transactionstatus varchar(20)
+select * from Purchasehistory
+create table Cart(cartid int primary key,
+buyerid int foreign key references Buyer(buyerid),
+itemid int foreign key references Items(itemid),
+price int not null,
+itemname varchar(20) not null,
+description varchar(20),
+stockno int,
+remarks varchar(20),
+imagename varchar(20))

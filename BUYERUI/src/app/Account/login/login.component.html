@@ -1,0 +1,28 @@
+<div class="container login-container">
+    <div class="row">
+        <div class="col-md-6 login-form-1">
+            <h3>Login</h3>
+<form [formGroup]="userForm">
+            
+                <div class="form-group">
+                    <input type="text" formControlName="username" class="form-control" placeholder="Your Name *" value=""  [ngClass]="{ 'is-invalid': submitted && f.username.errors }"/>
+                    <div *ngIf="submitted && f.username.errors" class="invalid-feedback">
+                        <div *ngIf="f.username.errors.required">Username is required</div>
+                        <div *ngIf="f.username.errors.pattern">Enter only Alphabets</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="password" formControlName="password" class="form-control" placeholder="Your password *" value="" [ngClass]="{ 'is-invalid': submitted && f.password.errors }"/>
+                        <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                            <div *ngIf="f.password.errors.required">password is required</div>
+                            <div *ngIf="f.password.errors.pattern">Enter only Alphabets</div>
+                        </div>
+                </div>
+                <div class="form-group">
+                    <button style="border-color:white;color: white;" class="btn btn-outline-default my-2 my-sm-0" type="submit" (click)="onSubmitLogin()">LOGIN</button>
+                </div>
+               
+                </form>
+            </div>
+    </div>
+</div>

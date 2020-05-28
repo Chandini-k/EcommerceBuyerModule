@@ -1,0 +1,2 @@
+2020-05-18 09:57:12.9460||DEBUG|BuyerService.Program|init main function 
+2020-05-18 09:57:15.1258|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 

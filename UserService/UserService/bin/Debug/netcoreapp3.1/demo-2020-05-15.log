@@ -1,0 +1,18 @@
+2020-05-15 08:49:18.9079||DEBUG|UserService.Program|init main function 
+2020-05-15 08:49:24.3368|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2020-05-15 08:54:04.7373||INFO|UserService.Controllers.UserController|User Login 
+2020-05-15 08:54:11.4504||INFO|UserService.Controllers.UserController|Welcomechandu 
+2020-05-15 08:58:14.3863||INFO|UserService.Controllers.UserController|Register 
+2020-05-15 08:58:14.3863||INFO|UserService.Controllers.UserController|Succesfully Registered 
+2020-05-15 08:58:25.8238||INFO|UserService.Controllers.UserController|User Login 
+2020-05-15 08:58:25.8712||INFO|UserService.Controllers.UserController|Welcomeyaswitha 
+2020-05-15 09:03:28.0959||INFO|UserService.Controllers.UserController|User Login 
+2020-05-15 09:03:28.1216||INFO|UserService.Controllers.UserController|Welcomechandu 
+2020-05-15 09:07:04.4838||INFO|UserService.Controllers.UserController|User Login 
+2020-05-15 09:07:04.5624||INFO|UserService.Controllers.UserController|Welcomechandu 
+2020-05-15 09:18:14.5191||INFO|UserService.Controllers.UserController|User Login 
+2020-05-15 09:18:14.5825||INFO|UserService.Controllers.UserController|Welcomechandu 
+2020-05-15 11:17:55.7976||INFO|UserService.Controllers.UserController|User Login 
+2020-05-15 11:17:55.9364||INFO|UserService.Controllers.UserController|Welcomechandu 
+2020-05-15 13:04:30.0393||INFO|UserService.Controllers.UserController|User Login 
+2020-05-15 13:04:30.7072||INFO|UserService.Controllers.UserController|Welcomechandu 

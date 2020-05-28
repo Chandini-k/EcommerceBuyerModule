@@ -1,0 +1,117 @@
+<div class="container-fluid py-3">
+    <div class="row">
+        <div class="col-12 col-sm-8 col-md-6 col-lg-4 mx-auto">
+            <div id="pay-invoice" class="card">
+                <div class="card-body">
+                    <div class="card-title">
+                        <h3 class="text-center">PAYMENT</h3>
+                    </div>
+                    <hr>
+                    <form [formGroup]="payform" (ngSubmit)="onsubmit()">
+                      <div *ngFor="let items of list" class="row">
+                        <div  class="col-6">
+                            <div  class="form-group">
+                                <label for="cc-exp" class="control-label mb-1" >Item Name</label>
+                                <input disabled  type="text" value={{items.description}} class="form-control" required >
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <label for="x_card_code" class="control-label mb-1">Price</label>
+                            <div class="input-group">
+                                <input disabled id="x_card_code" value={{items.price}} name="x_card_code" type="tel" class="form-control cc-cvc" required autocomplete="off">
+                                <div class="input-group-append">
+                                    <div class="input-group-text">
+                                    <span class="fa fa-rupee fa-lg" data-toggle="popover" data-container="body" data-html="true" data-title="CVV" data-trigger="hover"></span>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>  
+                        <div class="form-group">
+                            <label for="cc-number"class="control-label mb-1">Trasaction Type</label>
+                            <select  (change)="card()" placeholder="select type"  formControlName="transactionType"  id=""   name="cc-number" type="text" class="form-control" required autocomplete="off">
+                              <option value="Cash">Cash</option>
+                              <option value="Card">Card</option>
+                            </select>
+                              
+                        </div>
+                        
+                        <div *ngIf="pay" class="row">
+                            <div  class="col-6">
+                                <div  class="form-group">
+                                    <label for="cc-exp"  class="control-label mb-1">Card Number</label>
+                                    <input  formControlName="cardnumber"  type="number" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.cardnumber.errors }">
+                                    <div *ngIf="submitted && f.cardnumber.errors" class="invalid-feedback" >
+                                      <div *ngIf="f.cardnumber.errors.required">Number is required</div>
+                            <div *ngIf="f.remarks.errors.pattern">Enter 16 digit</div>
+  
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                              <div  class="form-group">
+                                <label for="x_card_code"  class="control-label mb-1">CVV</label>
+                                <div class="input-group">
+                                  <input formControlName="cvv" name="cc-exp" type="text" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.cvv.errors }">
+                                  <div class="input-group-append">
+                                    <div class="input-group-text">
+                                    <span class="fa fa-rupee fa-lg" data-toggle="popover" data-container="body" data-html="true" data-title="CVV" ></span>
+                                    </div>
+                                    <div *ngIf="submitted && f.cvv.errors" class="invalid-feedback" >
+                                      <div *ngIf="f.cvv.errors.required">id is required</div>
+                            <div *ngIf="f.remarks.errors.pattern">Enter last 3 digits </div>
+  
+                                    </div>
+                                    
+                                </div>
+                                    
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="form-group green-border-focus">
+                          <label for="cc-number"  class="control-label mb-1">Remarks</label>
+                          <textarea formControlName="remarks" class="form-control" id="exampleFormControlTextarea5" rows="3" [ngClass]="{ 'is-invalid': submitted && f.remarks.errors }"></textarea>
+                          <div *ngIf="submitted && f.remarks.errors" class="invalid-feedback">
+                            <div *ngIf="f.remarks.errors.required">id is required</div>
+                            <div *ngIf="f.remarks.errors.pattern">Enter valid id ex:B445</div>
+                        </div>
+                      </div>
+                        <div class="row">
+                          <div class="col-6">
+                              <div class="form-group">
+                                  <label for="cc-exp" class="control-label mb-1">Number Of Items</label>
+                                  <input id="cc-exp" formControlName="noOfItems"  type="number" class="form-control" required [ngClass]="{ 'is-invalid': submitted && f.noOfItems.errors }" >
+                                  <div *ngIf="submitted && f.noOfItems.errors" class="invalid-feedback" >
+                                    <div *ngIf="f.noOfItems.errors.required">id is required</div>
+                                    <div *ngIf="f.noOfItems.errors.pattern">Enter valid id ex:B445</div>
+                                </div>
+                                </div>
+                          </div>
+                          <div  class="col-6">
+                              <label for="x_card_code"  class="control-label mb-1">Total</label>
+                              <div class="input-group" >
+                                  <input type="number" (mouseover)="key($event)" value={{total}} class="form-control" required autocomplete="off" readonly>
+                                  <div class="input-group-append">
+                                      <div class="input-group-text">
+                                      <span class="fa fa-rupee fa-lg" data-toggle="popover" data-container="body" data-html="true" data-title="CVV" data-trigger="hover"></span>
+                                      </div>
+                                  </div>
+                              </div>
+                              
+                          </div>
+                      </div>
+                      
+                        <div>
+                            <button (click)="Buy()" id="payment-button" type="submit" class="btn btn-lg btn-dark btn-block">
+                                <i class="fa fa-lock fa-lg"></i>&nbsp;
+                                <span id="payment-button-amount">Pay </span>
+                                <span id="payment-button-sending" style="display:none;">Sending…</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>

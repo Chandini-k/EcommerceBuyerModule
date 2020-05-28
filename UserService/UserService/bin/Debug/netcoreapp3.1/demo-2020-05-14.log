@@ -1,0 +1,54 @@
+2020-05-14 06:51:37.6499||DEBUG|UserService.Program|init main function 
+2020-05-14 06:52:32.8233|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2020-05-14 06:55:57.3233||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 06:56:14.7516||INFO|UserService.Controllers.UserController|Welcomechandu 
+2020-05-14 13:16:54.1437||DEBUG|UserService.Program|init main function 
+2020-05-14 13:17:16.8170|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2020-05-14 13:20:55.0595||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 13:21:10.6642||INFO|UserService.Controllers.UserController|Welcomechandu 
+2020-05-14 13:45:45.6544||INFO|UserService.Controllers.UserController|Register 
+2020-05-14 13:45:45.7234||INFO|UserService.Controllers.UserController|Succesfully Registered 
+2020-05-14 13:46:02.4317||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 13:46:02.6768||INFO|UserService.Controllers.UserController|Welcomesumabade 
+2020-05-14 14:16:04.0904||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 14:16:04.5629||INFO|UserService.Controllers.UserController|Welcomechandu 
+2020-05-14 14:21:23.8617||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 14:21:23.9156||INFO|UserService.Controllers.UserController|Welcomechandu 
+2020-05-14 14:41:10.9590||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 14:41:11.3031||INFO|UserService.Controllers.UserController|Welcomesumabade 
+2020-05-14 15:07:49.9548||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 15:07:50.5855||INFO|UserService.Controllers.UserController|Welcomesumabade 
+2020-05-14 15:14:36.9413||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 15:14:37.2425||INFO|UserService.Controllers.UserController|Welcomechandu 
+2020-05-14 15:30:41.1097||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 15:30:41.4146||INFO|UserService.Controllers.UserController|Welcomechandu 
+2020-05-14 15:31:47.9000||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 15:31:48.0758||INFO|UserService.Controllers.UserController|Welcomechandu 
+2020-05-14 15:33:20.3937||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 15:33:20.6319||INFO|UserService.Controllers.UserController|Welcomechandu 
+2020-05-14 15:38:05.3492||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 15:38:05.5882||INFO|UserService.Controllers.UserController|Welcomechandu 
+2020-05-14 18:22:40.9674||DEBUG|UserService.Program|init main function 
+2020-05-14 18:23:01.1763|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2020-05-14 18:25:26.3314||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 18:25:36.5188||INFO|UserService.Controllers.UserController|Welcomechandu 
+2020-05-14 18:27:58.9144||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 18:27:59.0661||INFO|UserService.Controllers.UserController|Welcomesumabade 
+2020-05-14 18:36:41.8447||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 18:36:42.0734||INFO|UserService.Controllers.UserController|Welcomechandu 
+2020-05-14 18:42:44.5342||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 18:42:44.5637||INFO|UserService.Controllers.UserController|Welcomesumabade 
+2020-05-14 18:45:24.1617||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 18:45:24.2050||INFO|UserService.Controllers.UserController|Welcomechandinik 
+2020-05-14 18:46:06.9644||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 18:46:06.9890||INFO|UserService.Controllers.UserController|Welcomeammu 
+2020-05-14 18:51:55.7532||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 18:51:56.2021||INFO|UserService.Controllers.UserController|Welcomeammu 
+2020-05-14 19:10:33.1907||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 19:10:33.4456||INFO|UserService.Controllers.UserController|Welcomeammu 
+2020-05-14 19:18:32.1781||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 19:18:32.3426||INFO|UserService.Controllers.UserController|Welcomeammu 
+2020-05-14 19:44:52.0048||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 19:44:52.1361||INFO|UserService.Controllers.UserController|Welcomechandu 
+2020-05-14 20:33:35.5866||INFO|UserService.Controllers.UserController|User Login 
+2020-05-14 20:33:35.6879||INFO|UserService.Controllers.UserController|Welcomechandu 

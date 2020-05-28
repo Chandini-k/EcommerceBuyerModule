@@ -1,0 +1,43 @@
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    float: right;
+}
+.login-logo{
+    position: relative;
+    margin-left: -41.5%;
+}
+.login-form-1{
+    margin-left: 100px;
+    padding: 9%;
+    background:white;
+    border-radius: 1.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.2) 20px 20px 20px;
+   /* background: -webkit-linear-gradient(left,rgb(236, 233, 233), rgba(0, 0, 0, 0.5));  */
+    
+
+}
+.login-form-1 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color:#fff;
+}
+.btnSubmit{
+    font-weight: 600;
+   width: 50%;
+   align-items: center;
+    color: #282726;
+    background-color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+    margin-left: 90px;
+    justify-content: center;
+}
+
+.bread{
+    float: right;
+    margin-right: -340px;
+  
+}

@@ -1,0 +1,18 @@
+2020-05-15 08:49:18.9079||DEBUG|UserService.Program|init main function |url: |action: 
+2020-05-15 08:49:24.3368|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. |url: http://localhost/|action: 
+2020-05-15 08:54:04.7373||INFO|UserService.Controllers.UserController|User Login |url: http://localhost/api/User/Login/chandu/abcdefg@|action: BuyerLogin
+2020-05-15 08:54:11.4504||INFO|UserService.Controllers.UserController|Welcomechandu |url: http://localhost/api/User/Login/chandu/abcdefg@|action: BuyerLogin
+2020-05-15 08:58:14.3863||INFO|UserService.Controllers.UserController|Register |url: http://localhost/api/User/Register|action: Buyer
+2020-05-15 08:58:14.3863||INFO|UserService.Controllers.UserController|Succesfully Registered |url: http://localhost/api/User/Register|action: Buyer
+2020-05-15 08:58:25.8238||INFO|UserService.Controllers.UserController|User Login |url: http://localhost/api/User/Login/yaswitha/abcdefg@|action: BuyerLogin
+2020-05-15 08:58:25.8712||INFO|UserService.Controllers.UserController|Welcomeyaswitha |url: http://localhost/api/User/Login/yaswitha/abcdefg@|action: BuyerLogin
+2020-05-15 09:03:28.0959||INFO|UserService.Controllers.UserController|User Login |url: http://localhost/api/User/Login/chandu/abcdefg@|action: BuyerLogin
+2020-05-15 09:03:28.1216||INFO|UserService.Controllers.UserController|Welcomechandu |url: http://localhost/api/User/Login/chandu/abcdefg@|action: BuyerLogin
+2020-05-15 09:07:04.4838||INFO|UserService.Controllers.UserController|User Login |url: http://localhost/api/User/Login/chandu/abcdefg@|action: BuyerLogin
+2020-05-15 09:07:04.5624||INFO|UserService.Controllers.UserController|Welcomechandu |url: http://localhost/api/User/Login/chandu/abcdefg@|action: BuyerLogin
+2020-05-15 09:18:14.5191||INFO|UserService.Controllers.UserController|User Login |url: http://localhost/api/User/Login/chandu/abcdefg@|action: BuyerLogin
+2020-05-15 09:18:14.5825||INFO|UserService.Controllers.UserController|Welcomechandu |url: http://localhost/api/User/Login/chandu/abcdefg@|action: BuyerLogin
+2020-05-15 11:17:55.7976||INFO|UserService.Controllers.UserController|User Login |url: http://localhost/api/User/Login/chandu/abcdefg@|action: BuyerLogin
+2020-05-15 11:17:55.9364||INFO|UserService.Controllers.UserController|Welcomechandu |url: http://localhost/api/User/Login/chandu/abcdefg@|action: BuyerLogin
+2020-05-15 13:04:30.0393||INFO|UserService.Controllers.UserController|User Login |url: http://localhost/api/User/Login/chandu/abcdefg@|action: BuyerLogin
+2020-05-15 13:04:30.7072||INFO|UserService.Controllers.UserController|Welcomechandu |url: http://localhost/api/User/Login/chandu/abcdefg@|action: BuyerLogin

@@ -1,0 +1,30 @@
+.input-group-addon {
+    background-color: transparent;
+    border-left: 0;
+  }
+  
+  .cc-number.identified {
+    background-repeat: no-repeat;
+  background-position-y: 3px;
+  background-position-x: 99%;
+  }
+  
+  
+  
+  .one-card > div {
+    height: 150px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  .two-card > div {
+    height: 80px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 48%;
+  }
+  
+  .two-card div.amex-cvc-preview {
+    float: right;
+  }

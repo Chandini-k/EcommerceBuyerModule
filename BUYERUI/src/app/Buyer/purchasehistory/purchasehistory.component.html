@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row col-md-6 col-md-offset-2 custyle">
+        
+    <table class="table table-bordered custab">
+    <thead style="background:dodgerblue;color:aliceblue">
+   
+        <tr>
+            <th>ID</th>
+            <th>Itemname</th>
+            <th>TransactionType</th>
+            <th>Status</th>
+            <th>Quntity</th>
+            <th>Date</th>  
+        </tr>
+    </thead>
+    <ng-container *ngFor="let purchase of purchase"> 
+       <tr>
+        <td >{{purchase.itemId}}</td>
+         <td>{{purchase.itemName}}</td>
+         <td>{{purchase.transactionType}}</td>
+         <td>{{purchase.transactionStatus}}</td>
+         <td>{{purchase.noOfItems}}</td>
+         <td>{{purchase.dateTime|date:'MM/dd/yyyy'}}</td>
+     </tr>
+ </ng-container>       
+    </table>
+
+    
+    </div>
+</div>

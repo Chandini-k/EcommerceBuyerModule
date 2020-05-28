@@ -1,0 +1,60 @@
+<div class="container login-container">
+    <div class="row">
+        <div class="col-md-6 login-form-1">
+            <h3>REGISTER HERE</h3>
+ <form [formGroup]="buyerForm">
+    <div class="col-md-10">
+        <div class="form-group">
+            <input type="text" formControlName="userName" class="form-control" placeholder="Your Name *" value=""  [ngClass]="{ 'is-invalid': submitted && f.userName.errors }"/>
+            <div *ngIf="submitted && f.userName.errors" class="invalid-feedback">
+                <div *ngIf="f.userName.errors.required">First Name is required</div>
+                <div *ngIf="f.userName.errors.pattern">Username Should be of length 5</div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="col-md-10">
+        <div class="form-group">
+            <input type="password" formControlName="password" class="form-control" placeholder="Your password *" value="" [ngClass]="{ 'is-invalid': submitted && f.password.errors }"/>
+            <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                <div *ngIf="f.password.errors.required">Password is required</div>
+                <div *ngIf="f.password.errors.pattern">Must contain 4 Alphabets and 3 special characters</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-10">
+        <div class="form-group">
+            <input type="text" formControlName="mobileNo" class="form-control" placeholder="Your Mobile Number*" value=""  [ngClass]="{ 'is-invalid': submitted && f.mobileNo.errors }"/>
+            <div *ngIf="submitted && f.mobileNo.errors" class="invalid-feedback">
+                <div *ngIf="f.mobileNo.errors.required">number is required</div>
+                <div *ngIf="f.mobileNo.errors.pattern">Must start with 6 or 9 or 8</div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="col-md-10">
+        <div class="form-group">
+            <input type="email" formControlName="emailId" class="form-control" placeholder="Your Email *" value="" [ngClass]="{ 'is-invalid': submitted && f.emailId.errors }"/>
+            <div *ngIf="submitted && f.emailId.errors" class="invalid-feedback">
+                <div *ngIf="f.emailId.errors.required">email is required</div>
+                <div *ngIf="f.emailId.errors.pattern">Enter valid id ex:B445</div>
+            </div>
+        </div></div>
+    <div class="col-md-10">
+        <div class="form-group">
+            <input type="date" formControlName="dateTime" class="form-control" placeholder="Your Joining Date *" value="" [ngClass]="{ 'is-invalid': submitted && f.dateTime.errors }"/>
+            <div *ngIf="submitted && f.dateTime.errors" class="invalid-feedback">
+                <div *ngIf="f.dateTime.errors.required">Date is required</div>
+                <div *ngIf="f.dateTime.errors.pattern"></div>
+            </div>
+        </div>
+    </div>
+                <div class="form-group">
+                    <button style="border-color:white;color: white;justify-content: center;" class="btn btn-outline-default my-2 my-sm-0" type="submit" (click)="onSubmitBuyer()">REGISTER</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button style="border-color:white;color: white;justify-content: center;" class="btn btn-outline-default my-2 my-sm-0" type="submit" (click)="onReset()">RESET</button>
+                </div>
+               
+                </form>
+            </div>
+    </div>
+</div>
