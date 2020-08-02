@@ -1,0 +1,4 @@
+2020-08-01 09:33:15.0736||DEBUG|UserService.Program|init main function 
+2020-08-01 09:33:21.7616|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2020-08-01 09:35:38.7279||INFO|UserService.Controllers.UserController|User Login 
+2020-08-01 09:35:44.6514||INFO|UserService.Controllers.UserController|Welcomechandinik 
